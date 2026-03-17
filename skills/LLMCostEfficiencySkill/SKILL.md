@@ -21,8 +21,11 @@ Esta skill reúne técnicas e padrões para economizar tokens (entrada e saída)
 - [Prompt Engineering para Eficiência](prompt_engineering.md): Como escrever comandos concisos.
 - [Gerenciamento de Contexto](context_management.md): Técnicas para lidar com janelas de contexto.
 - [Recursos de Modelos](model_features.md): Context Caching e Batch APIs.
+- [Relatórios no Terminal](terminal_reporting.md): Como exibir a economia a cada prompt.
 - [Checklist de Pré-Voo](preflight_checklist.md): Guia rápido para validação de prompts.
 
 ## Como Usar
 
-Esta skill deve ser consultada sempre que houver necessidade de lidar com grandes volumes de dados ou quando o custo de operação for uma preocupação. Siga as diretrizes nos módulos para garantir que você está sendo o mais eficiente possível em suas chamadas.
+Esta skill deve ser consultada sempre que houver necessidade de lidar com grandes volumes de dados ou quando o custo de operação for uma preocupação. 
+
+**IMPORTANTE**: Ao final de cada interação onde esta skill for aplicada, o assistente DEVE exibir o relatório de economia conforme definido em [Relatórios no Terminal](terminal_reporting.md).
