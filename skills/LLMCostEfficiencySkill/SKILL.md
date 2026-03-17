@@ -22,6 +22,8 @@ Esta skill reúne técnicas e padrões para economizar tokens (entrada e saída)
 - [Gerenciamento de Contexto](context_management.md): Técnicas para lidar com janelas de contexto.
 - [Recursos de Modelos](model_features.md): Context Caching e Batch APIs.
 - [Relatórios no Terminal](terminal_reporting.md): Como exibir a economia a cada prompt.
+- [Eficiência de Ferramentas](tool_efficiency.md): Guia de custo para cada ferramenta.
+- [Tarefas Incrementais](incremental_tasks.md): Como quebrar tarefas para poupar contexto.
 - [Checklist de Pré-Voo](preflight_checklist.md): Guia rápido para validação de prompts.
 
 ## Como Usar

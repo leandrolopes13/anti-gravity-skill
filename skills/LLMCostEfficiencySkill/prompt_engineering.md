@@ -21,3 +21,8 @@ Use delimitadores (como triple backticks ` ``` ` ou tags XML) para separar instr
 
 ## 5. Token Pruning (Poda de Tokens)
 Se você está colando logs ou erros, remova timestamps repetitivos, IDs de transação irrelevantes ou stack traces de bibliotecas externas se o erro estiver claramente no seu código.
+
+## 6. Otimização de Idioma (Inglês vs Português)
+Embora a skill seja documentada em Português, tenha em mente que a maioria dos tokenizers (como o do GPT-4 ou Gemini) são mais eficientes em Inglês.
+- O mesmo comando em Inglês costuma gastar de 10% a 20% menos tokens que em Português devido à forma como as palavras são quebradas.
+- **Dica**: Para tarefas puramente técnicas (ex: "Refactor this code"), use comandos em Inglês se o custo for crítico.
